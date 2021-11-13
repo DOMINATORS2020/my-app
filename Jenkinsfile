@@ -7,7 +7,7 @@ pipeline
                      script{
                          checkout([$class: 'GitSCM', branches: [[name: '*/main']], 
                              userRemoteConfigs: [[ 
-                                 credentialsId: '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',
+                                 credentialsId: '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',
                                  url :'https://github.com/DOMINATORS2020/CD-Project.git']]])
                                  }
 			}
