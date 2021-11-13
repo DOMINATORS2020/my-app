@@ -7,7 +7,7 @@ pipeline
                      script{
                          checkout([$class: 'GitSCM', branches: [[name: '*/main']], 
                              userRemoteConfigs: [[ 
-                                 credentialsId: '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',
+                                 credentialsId: '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',
                                  url :'https://github.com/DOMINATORS2020/CD-Project.git']]])
                                  }
 			}
@@ -15,7 +15,7 @@ pipeline
 	      stage('build'){
                   steps{
                      script{
-                            sh "ansible-playbook home/mourad/my-app/Ansible/build.yml -i home/mourad/my-app/Ansible/inventory/host.yml"
+                            sh "ansible-playbook /home/mourad/my-app/Ansible/build.yml -i /home/mourad/my-app/Ansible/inventory/host.yml"
                                  }
 			}
 		}
