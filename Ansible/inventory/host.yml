@@ -1,8 +1,7 @@
-localhost ansible_connection=local
+localhost ansible_user=mourad ansible_pass=mourad ansible_connection=local
 
 [server]
 localhost
 
 [server:vars]
 ansible_python_interpreter= /usr/bin/python3
-ansi_user= Ubuntu
