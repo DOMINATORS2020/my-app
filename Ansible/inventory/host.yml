@@ -1,4 +1,4 @@
-localhost ansible_connection=local ansible_user=mourad ansible_become_pass=mourad
+localhost ansible_user=mourad ansible_become_pass=mourad ansible_connection=local 
 
 [server]
 localhost 
