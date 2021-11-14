@@ -1,7 +1,15 @@
+<<<<<<< HEAD
 localhost ansible_user=mourad ansible_pass=mourad ansible_connection=local
+=======
+localhost ansible_user=mourad ansible_pass=mourad ansible_connection=local 
+>>>>>>> 5786b28a4801e8e47ffd404e502af33bb49948dc
 
 [server]
-localhost
+localhost 
 
 [server:vars]
 ansible_python_interpreter= /usr/bin/python3
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5786b28a4801e8e47ffd404e502af33bb49948dc
