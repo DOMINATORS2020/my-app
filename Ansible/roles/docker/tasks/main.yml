@@ -4,8 +4,8 @@
     docker_image: 
       name: devops
       build:
-        path: /var/lib/jenkins/workspace/devops
-        pull: no 
+       path: /var/lib/jenkins/workspace/devops
+       pull: no 
       source: build
       state: present
       force_source: true
