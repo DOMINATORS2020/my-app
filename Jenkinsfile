@@ -18,6 +18,14 @@ pipeline
                      }
                   }
               }
+              stage('Push to DockerHub'){
+                  steps{
+                     script{
+                            sh "ansible-playbook /home/mourad/my-app/Ansible/docker-registry.yml -i /home/mourad/my-app/Ansible/inventory/host.yml"
+                     }
+                  }
+              }
+
 
 	}
 }

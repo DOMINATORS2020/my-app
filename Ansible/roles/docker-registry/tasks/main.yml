@@ -1,0 +1,8 @@
+---
+# tasks file for docker-registry
+  - name: "tag the image"
+    docker_image:
+      name: devops
+      repository: mouradjomaa9/my-app
+      tag: latest
+      source: local
